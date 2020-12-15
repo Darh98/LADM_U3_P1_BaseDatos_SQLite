@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PARA CAPTURAR UNA ACTIVIDAD LLENE LOS SIGUIENTES DATOS"
+    android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DESCRIPCION"
+        android:inputType="textPersonName"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/fcaptura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="FECHA DE CAPTURA"
+        android:inputType="date"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/fentrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="FECHA DE ENTREGA"
+        android:inputType="date"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#870000"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:text="INSERTAR" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000E87"
+        android:textColor="#fff"
+        android:text="BUSCAR" />
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
